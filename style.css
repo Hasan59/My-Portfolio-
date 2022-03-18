@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin:0;
 }
 .hasan{
     color: orange;
@@ -16,15 +17,31 @@ h1{
 }
 
 .half-width img{
-    height:350px;
-    width:100%;
-    margin-left:130px;
+    height:250px;
+    width:50%;
+    margin-left:500px;
+    margin-top: 30px;
+  
 
 }
 .banner{
-    background-image: url("background.jpg");
-    border:1px solid red;
+    background-image: url("hasan2.jpg");
+    background-repeat: no-repeat;
+    overflow: none;
+   
 }
 section{
-    height:500px;
+    height:700px;
 }
+.hire{
+    text-decoration: none;
+  
+    font-size: 30px;
+    background-image: linear-gradient(45deg,salmon,tomato);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color:white;
+    font-weight: bold;
+    margin-top:15px;
+}
+
